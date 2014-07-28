@@ -14,6 +14,7 @@
 		00443C321986EDE300AFC046 /* ObjC2SwiftDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00443C311986EDE300AFC046 /* ObjC2SwiftDemoTests.m */; };
 		00443C3D1986EE5700AFC046 /* FooTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00443C3C1986EE5700AFC046 /* FooTextView.m */; };
 		00443C431986F14000AFC046 /* NSColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 00443C421986F14000AFC046 /* NSColor+Random.m */; };
+		00FB46931986F379003C8756 /* FooTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB46921986F379003C8756 /* FooTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,9 @@
 		00443C3E1986EF9600AFC046 /* Gotchas.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Gotchas.playground; sourceTree = "<group>"; };
 		00443C411986F14000AFC046 /* NSColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Random.h"; sourceTree = "<group>"; };
 		00443C421986F14000AFC046 /* NSColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Random.m"; sourceTree = "<group>"; };
+		00FB46911986F379003C8756 /* ObjC2SwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjC2SwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		00FB46921986F379003C8756 /* FooTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooTextView.swift; sourceTree = "<group>"; };
+		00FB46941986F952003C8756 /* NSColor+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSColor+Random.swift"; path = "../NSColor+Random.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,11 +92,14 @@
 				00443C201986EDE300AFC046 /* AppDelegate.m */,
 				00443C3B1986EE5700AFC046 /* FooTextView.h */,
 				00443C3C1986EE5700AFC046 /* FooTextView.m */,
+				00FB46921986F379003C8756 /* FooTextView.swift */,
 				00443C411986F14000AFC046 /* NSColor+Random.h */,
 				00443C421986F14000AFC046 /* NSColor+Random.m */,
+				00FB46941986F952003C8756 /* NSColor+Random.swift */,
 				00443C221986EDE300AFC046 /* Images.xcassets */,
 				00443C241986EDE300AFC046 /* MainMenu.xib */,
 				00443C1B1986EDE300AFC046 /* Supporting Files */,
+				00FB46911986F379003C8756 /* ObjC2SwiftDemo-Bridging-Header.h */,
 			);
 			path = ObjC2SwiftDemo;
 			sourceTree = "<group>";
@@ -226,6 +233,7 @@
 				00443C3D1986EE5700AFC046 /* FooTextView.m in Sources */,
 				00443C1E1986EDE300AFC046 /* main.m in Sources */,
 				00443C431986F14000AFC046 /* NSColor+Random.m in Sources */,
+				00FB46931986F379003C8756 /* FooTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,10 +347,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ObjC2SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjC2SwiftDemo/ObjC2SwiftDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,10 +361,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ObjC2SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjC2SwiftDemo/ObjC2SwiftDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -414,6 +427,7 @@
 				00443C371986EDE300AFC046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00443C381986EDE300AFC046 /* Build configuration list for PBXNativeTarget "ObjC2SwiftDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +436,7 @@
 				00443C3A1986EDE300AFC046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

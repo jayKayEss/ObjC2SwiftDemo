@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "FooTextView.h"
+//#import "FooTextView.h"
+#import "Objc2SwiftDemo-Swift.h"
 
 @interface AppDelegate ()
             
