@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00443C1E1986EDE300AFC046 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00443C1D1986EDE300AFC046 /* main.m */; };
+		00443C211986EDE300AFC046 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00443C201986EDE300AFC046 /* AppDelegate.m */; };
+		00443C231986EDE300AFC046 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00443C221986EDE300AFC046 /* Images.xcassets */; };
+		00443C261986EDE300AFC046 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00443C241986EDE300AFC046 /* MainMenu.xib */; };
+		00443C321986EDE300AFC046 /* ObjC2SwiftDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00443C311986EDE300AFC046 /* ObjC2SwiftDemoTests.m */; };
+		00443C3D1986EE5700AFC046 /* FooTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00443C3C1986EE5700AFC046 /* FooTextView.m */; };
+		00443C431986F14000AFC046 /* NSColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 00443C421986F14000AFC046 /* NSColor+Random.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00443C2C1986EDE300AFC046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00443C101986EDE300AFC046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00443C171986EDE300AFC046;
+			remoteInfo = ObjC2SwiftDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00443C181986EDE300AFC046 /* ObjC2SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjC2SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00443C1C1986EDE300AFC046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00443C1D1986EDE300AFC046 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00443C1F1986EDE300AFC046 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00443C201986EDE300AFC046 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00443C221986EDE300AFC046 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00443C251986EDE300AFC046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		00443C2B1986EDE300AFC046 /* ObjC2SwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjC2SwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00443C301986EDE300AFC046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00443C311986EDE300AFC046 /* ObjC2SwiftDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjC2SwiftDemoTests.m; sourceTree = "<group>"; };
+		00443C3B1986EE5700AFC046 /* FooTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooTextView.h; sourceTree = "<group>"; };
+		00443C3C1986EE5700AFC046 /* FooTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooTextView.m; sourceTree = "<group>"; };
+		00443C3E1986EF9600AFC046 /* Gotchas.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Gotchas.playground; sourceTree = "<group>"; };
+		00443C411986F14000AFC046 /* NSColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Random.h"; sourceTree = "<group>"; };
+		00443C421986F14000AFC046 /* NSColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Random.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00443C151986EDE300AFC046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00443C281986EDE300AFC046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00443C0F1986EDE300AFC046 = {
+			isa = PBXGroup;
+			children = (
+				00443C3E1986EF9600AFC046 /* Gotchas.playground */,
+				00443C1A1986EDE300AFC046 /* ObjC2SwiftDemo */,
+				00443C2E1986EDE300AFC046 /* ObjC2SwiftDemoTests */,
+				00443C191986EDE300AFC046 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00443C191986EDE300AFC046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00443C181986EDE300AFC046 /* ObjC2SwiftDemo.app */,
+				00443C2B1986EDE300AFC046 /* ObjC2SwiftDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00443C1A1986EDE300AFC046 /* ObjC2SwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				00443C1F1986EDE300AFC046 /* AppDelegate.h */,
+				00443C201986EDE300AFC046 /* AppDelegate.m */,
+				00443C3B1986EE5700AFC046 /* FooTextView.h */,
+				00443C3C1986EE5700AFC046 /* FooTextView.m */,
+				00443C411986F14000AFC046 /* NSColor+Random.h */,
+				00443C421986F14000AFC046 /* NSColor+Random.m */,
+				00443C221986EDE300AFC046 /* Images.xcassets */,
+				00443C241986EDE300AFC046 /* MainMenu.xib */,
+				00443C1B1986EDE300AFC046 /* Supporting Files */,
+			);
+			path = ObjC2SwiftDemo;
+			sourceTree = "<group>";
+		};
+		00443C1B1986EDE300AFC046 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00443C1C1986EDE300AFC046 /* Info.plist */,
+				00443C1D1986EDE300AFC046 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00443C2E1986EDE300AFC046 /* ObjC2SwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				00443C311986EDE300AFC046 /* ObjC2SwiftDemoTests.m */,
+				00443C2F1986EDE300AFC046 /* Supporting Files */,
+			);
+			path = ObjC2SwiftDemoTests;
+			sourceTree = "<group>";
+		};
+		00443C2F1986EDE300AFC046 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00443C301986EDE300AFC046 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00443C171986EDE300AFC046 /* ObjC2SwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00443C351986EDE300AFC046 /* Build configuration list for PBXNativeTarget "ObjC2SwiftDemo" */;
+			buildPhases = (
+				00443C141986EDE300AFC046 /* Sources */,
+				00443C151986EDE300AFC046 /* Frameworks */,
+				00443C161986EDE300AFC046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjC2SwiftDemo;
+			productName = ObjC2SwiftDemo;
+			productReference = 00443C181986EDE300AFC046 /* ObjC2SwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00443C2A1986EDE300AFC046 /* ObjC2SwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00443C381986EDE300AFC046 /* Build configuration list for PBXNativeTarget "ObjC2SwiftDemoTests" */;
+			buildPhases = (
+				00443C271986EDE300AFC046 /* Sources */,
+				00443C281986EDE300AFC046 /* Frameworks */,
+				00443C291986EDE300AFC046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00443C2D1986EDE300AFC046 /* PBXTargetDependency */,
+			);
+			name = ObjC2SwiftDemoTests;
+			productName = ObjC2SwiftDemoTests;
+			productReference = 00443C2B1986EDE300AFC046 /* ObjC2SwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00443C101986EDE300AFC046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Justin Sheckler";
+				TargetAttributes = {
+					00443C171986EDE300AFC046 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					00443C2A1986EDE300AFC046 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 00443C171986EDE300AFC046;
+					};
+				};
+			};
+			buildConfigurationList = 00443C131986EDE300AFC046 /* Build configuration list for PBXProject "ObjC2SwiftDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00443C0F1986EDE300AFC046;
+			productRefGroup = 00443C191986EDE300AFC046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00443C171986EDE300AFC046 /* ObjC2SwiftDemo */,
+				00443C2A1986EDE300AFC046 /* ObjC2SwiftDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00443C161986EDE300AFC046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00443C231986EDE300AFC046 /* Images.xcassets in Resources */,
+				00443C261986EDE300AFC046 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00443C291986EDE300AFC046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00443C141986EDE300AFC046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00443C211986EDE300AFC046 /* AppDelegate.m in Sources */,
+				00443C3D1986EE5700AFC046 /* FooTextView.m in Sources */,
+				00443C1E1986EDE300AFC046 /* main.m in Sources */,
+				00443C431986F14000AFC046 /* NSColor+Random.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00443C271986EDE300AFC046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00443C321986EDE300AFC046 /* ObjC2SwiftDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00443C2D1986EDE300AFC046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00443C171986EDE300AFC046 /* ObjC2SwiftDemo */;
+			targetProxy = 00443C2C1986EDE300AFC046 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00443C241986EDE300AFC046 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00443C251986EDE300AFC046 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00443C331986EDE300AFC046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		00443C341986EDE300AFC046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		00443C361986EDE300AFC046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ObjC2SwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00443C371986EDE300AFC046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ObjC2SwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00443C391986EDE300AFC046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjC2SwiftDemo.app/Contents/MacOS/ObjC2SwiftDemo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ObjC2SwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		00443C3A1986EDE300AFC046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjC2SwiftDemo.app/Contents/MacOS/ObjC2SwiftDemo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ObjC2SwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00443C131986EDE300AFC046 /* Build configuration list for PBXProject "ObjC2SwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00443C331986EDE300AFC046 /* Debug */,
+				00443C341986EDE300AFC046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00443C351986EDE300AFC046 /* Build configuration list for PBXNativeTarget "ObjC2SwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00443C361986EDE300AFC046 /* Debug */,
+				00443C371986EDE300AFC046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00443C381986EDE300AFC046 /* Build configuration list for PBXNativeTarget "ObjC2SwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00443C391986EDE300AFC046 /* Debug */,
+				00443C3A1986EDE300AFC046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00443C101986EDE300AFC046 /* Project object */;
+}
